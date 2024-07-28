@@ -1,7 +1,7 @@
 {
   "name": "@anandamideio/fvtt-types",
   "types": "./index.d.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "iterate": "npm version patch && git push origin main --tags && npm publish --access public"
   },
