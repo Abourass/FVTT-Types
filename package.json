@@ -1,6 +1,10 @@
 {
   "name": "@anandamideio/fvtt-types",
   "types": "./index.d.ts",
+  "version": "0.1.0",
+  "scripts": {
+    "iterate": "npm version patch && git push origin main --tags && npm publish --access public"
+  },
   "devDependencies": {
     "@types/jquery": "^3.5.6",
     "@types/node": "^22.0.0",
